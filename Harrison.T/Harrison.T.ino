@@ -2,11 +2,8 @@
 
 
 
-
-
-
-
 #include <Servo.h>
+#include <VarSpeedServo.h>
 
 Servo myservo;
 Servo mysigma;

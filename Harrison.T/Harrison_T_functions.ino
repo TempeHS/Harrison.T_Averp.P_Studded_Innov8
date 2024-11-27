@@ -1,3 +1,5 @@
+
+
 void servosetup(){
   myservo.attach(7); 
   mysigma.attach(6);
@@ -8,8 +10,10 @@ void servoloop(){
   buttonState = digitalRead(buttonPin);
 if (buttonState == HIGH && button == false)
 {
+  
 
   myservo.write(180);
+  delay(2000);
   mysigma.write(180);
 
   button = true;
@@ -22,11 +26,13 @@ if (buttonState == HIGH && button == false)
 {
 
   myservo.write(0);
+
+  delay(2000);
   mysigma.write(0);
 
   button = false;
 
-  delay(500);
+  delay(505);
 
 
 
