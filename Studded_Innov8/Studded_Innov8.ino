@@ -1,13 +1,18 @@
-pin8 = buttonPin
-pin5 = ultrasonic sensor
-pin7 = servopin
-pin6 = other servopin
+#include <Servo.h>
+#include "Ultrasonic.h"
+Ultrasonic mysensor(5);
+Servo myservo;
+Servo mysigma;
 
-https://github.com/TempeHS/TempeHS_Ardunio_Boilerplate/tree/main/TempeHS_Sensor_Catalogue/Sensor_Kit/Servo_Motor
-Servo Motors x7
+int buttonPin = 8;
+bool buttonState = false;
 
-https://github.com/TempeHS/TempeHS_Ardunio_Boilerplate/tree/main/TempeHS_Sensor_Catalogue/Sensor_Kit/Ultrasonic_Ranger
-UltraSonic Ranger x1
+bool button = false;
 
-https://github.com/TempeHS/TempeHS_Ardunio_Boilerplate/tree/main/TempeHS_Sensor_Catalogue/Sensor_Kit/Button
-Button x1
+void setup(){
+ ultrasetup ();
+}
+
+void loop() {
+  ultraloop ();
+}
