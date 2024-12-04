@@ -1,5 +1,7 @@
 #include <Servo.h>
 #include "Ultrasonic.h"
+
+
 Ultrasonic mysensor(5);
 Servo myservo;
 Servo mysigma;
@@ -11,8 +13,10 @@ bool button = false;
 
 void setup(){
  ultrasetup ();
+ servosetup ();
 }
 
 void loop() {
   ultraloop ();
+  servoloop ();
 }
