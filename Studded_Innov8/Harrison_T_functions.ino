@@ -22,7 +22,7 @@ if (buttonState == HIGH && button == false)
 
 
 
-} else if (buttonState == HIGH && button == true)
+} else if (buttonState == HIGH && button == true )
 {
 
   myservo.write(0);
@@ -37,4 +37,5 @@ if (buttonState == HIGH && button == false)
 
 
 }
+
 }

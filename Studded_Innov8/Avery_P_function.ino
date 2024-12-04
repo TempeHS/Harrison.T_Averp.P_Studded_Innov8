@@ -4,13 +4,15 @@ void ultrasetup(){
 
 void ultraloop(){
 
-  int distance = mysensor.distanceRead();
+  
   
   Serial.println(distance);
 
-  if(distance <= 10 ) {
-    buttonState = true;
+  if(distance <= 10) {
+    myservo.write(0);
+    mysigma.write(0);
   }
+  
 
   
   
