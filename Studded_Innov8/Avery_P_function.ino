@@ -3,8 +3,15 @@ void ultrasetup(){
 }
 
 void ultraloop(){
-  Serial.println(mysensor.distanceRead());
-  if(distanceRead <= 10)
+
+  int distance = mysensor.distanceRead();
+  
+  Serial.println(distance);
+
+  if(distance <= 10 ) {
+    buttonState = true;
+  }
+
   
   
 }
