@@ -9,6 +9,7 @@ Servo mysigma;
 int buttonPin = 8;
 bool buttonState = false;
 int distance;
+int buzzerPin = 4
 
 
 bool button = false;

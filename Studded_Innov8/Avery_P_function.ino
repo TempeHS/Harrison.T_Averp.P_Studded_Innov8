@@ -8,9 +8,9 @@ void ultraloop(){
   
   Serial.println(distance);
 
-  if(distance <= 10) {
-    myservo.write(0);
-    mysigma.write(0);
+  if(distance <= 10 && buttonState == HIGH)
+  {
+
   }
   
 
