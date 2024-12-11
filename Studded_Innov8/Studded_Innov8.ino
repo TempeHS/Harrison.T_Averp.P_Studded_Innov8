@@ -5,14 +5,14 @@
 Ultrasonic mysensor(5);
 Servo myservo;
 Servo mysigma;
-
+#define buzzer 4
 int buttonPin = 8;
 bool buttonState = false;
 int distance;
-int buzzerPin = 4
+int buzzerPin = 4;
 
 
-bool button = false;
+ bool button = false;
 
 void setup(){
  ultrasetup ();
