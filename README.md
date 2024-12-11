@@ -1,1 +1,5 @@
-# Harrison.T_Averp.P_Studded_Innov8
+# Harrison.T_Averpy.P_Studded_Innov8
+
+## How we did it
+
+We designed a prosthetic limb customized for an individual in need for pursuing her dream in football. She had unfortunately lost her leg from above the knee joint. In order to provide a biomedical leg, I Harrison, and Avery had come up with a high level solution using a varse variety of sensors. Such as, the servo motor, ultrasonic ranger, a press button, and a vibrating and sound emmitting buzzer. All controlled by our developing experience under C++. Since our patient is striving to become a paralympic level athelete, we had to customize the leg in every way. Our first collabortated idea was adding toggleable studs hidden inside the sole. Toggled by a simple press of a button. Since we had thought our idea was unique and possible, we had decided to push this idea to our final design. 
